@@ -1,7 +1,30 @@
-# Elasticsearch_rules
-ElasticSearch Detection version of SOC prime watcher rules with some new Corelight rules
+# Corelight ECS Kibana Security Rules and Alerts
+The repository is compromised of Kibana Security Rule and Alert files required to be used with the installer script in the repository  
+https://github.com/corelight/ecs-templates
 
-Please note some of these rules should be tuned to your environment. 
+The installer in that repository will download the files from this repository therefore using this repository directly is not required nor recommended.
 
-To load in Elastic, download the ndjson and expand Security and go to alerts. Click on Managed Alerts and click import rules and upload the file to Elastic. This will create two new tags one Zeek - These rules will work on OS Zeek and Corelight, and the other Corelight will only work with Corelight Data.  
+# License
+The files and automation script are open-source under a BSD license. See ``COPYING``for details.
 
+
+# Github Repository Definitions
+
+## Elasticsearch templates
+https://github.com/corelight/ecs-templates
+- Elasticsearch index templates, component templates, ilm policies, settings, and mappings
+- Install Script
+
+## Logstash Pipelines
+https://github.com/corelight/ecs-logstash-mappings
+- Logstash pipeline configurations
+
+## Ingest Pipelines
+https://github.com/corelight/ecs-mapping
+- Ingest pipeline configurations
+
+## Kibana Dashboards and Visualizations
+https://github.com/corelight/ecs-dashboards
+
+## Kibana Security Rules and Alerts (This Repository)
+https://github.com/corelight/Elasticsearch_rules
